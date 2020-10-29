@@ -7,4 +7,6 @@ export default combineReducers({
   products
 })
 
+export const getCartProducts = state => state.products;
+export const getTotal = state => state.products.total;
  // Reducers for corresponding Actions

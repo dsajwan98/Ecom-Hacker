@@ -1,8 +1,11 @@
-import React from 'react'
-import PropTypes from 'prop-types'
+import React from 'react';
+import PropTypes from 'prop-types';
 
-const ProductsList = ({  }) => (
-  // should render product title and its children 
+const ProductsList = ({ children, title }) => (
+  <div>
+    <b>{title}</b>
+    {children}
+  </div>
 )
 
 ProductsList.propTypes = {
